@@ -1,15 +1,12 @@
 # llm-agent-investment-assistant
 
 %md
-# Agent
+
 This is an auto-generated notebook created by an AI Playground export. We generated three notebooks in the same folder:
-- [**agent**]($./agent): contains the code to build the agent.
-- [config.yml]($./config.yml): contains the configurations.
-- [driver]($./driver): logs, evaluate, registers, and deploys the agent.
-
-# Driver
-Driver notebook uses Mosaic AI Agent Framework (AWS | Azure) to deploy the agent defined in the agent notebook. The notebook does the following:
-
+- Agent: contains the code to build the agent.
+- config.yml: contains the configurations.
+  
+- Driver: 
 - Logs the agent to MLflow
 - Evaluate the agent with Agent Evaluation
 - Registers the agent to Unity Catalog
@@ -25,8 +22,8 @@ Use this notebook to iterate on and modify the agent. For example, you could add
 ## Prerequisites
 
 - Address all `TODO`s in this notebook.
-- Review the contents of [config.yml]($./config.yml) as it defines the tools available to your agent, the LLM endpoint, and the agent prompt.
+- Review the contents of config.yml as it defines the tools available to your agent, the LLM endpoint, and the agent prompt.
 
 ## Next steps
 
-After testing and iterating on your agent in this notebook, go to the auto-generated [driver]($./driver) notebook in this folder to log, register, and deploy the agent.
+After testing and iterating on your agent in this notebook, go to the auto-generated driver notebook in this folder to log, register, and deploy the agent.
